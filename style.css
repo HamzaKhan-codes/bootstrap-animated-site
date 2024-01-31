@@ -250,6 +250,7 @@ a{
 
 
 .more-info-section{
+    height: 90vh;
     background-image: linear-gradient(rgba(22,22,22,0.9), rgba(22,22,22,0.9)), url("https://images.pexels.com/photos/316093/pexels-photo-316093.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
     background-size: cover;
     background-position: center;
@@ -263,10 +264,15 @@ a{
     position: relative;
 }
 
+.heading-phone{
+    margin-bottom: 100px;
+}
+
 .more-info-section img{
     position: relative;
     top: -10%;
     left: 0;
+    bottom: 30px;
     max-width: 100%;
     width: 70%;
     /* transform: scaleX(-1); */
